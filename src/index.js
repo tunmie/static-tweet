@@ -7,7 +7,7 @@ function Tweet() {
     <div className="tweet">
       <Avatar />
       <div className="content">
-        <Author />
+        <Author /><Time />
         <Message />
         <div className="buttons">
           <ReplyButton />
